@@ -1,0 +1,116 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+#about .container .about-area {
+  display: flex;
+  align-items: center;
+}
+#about .container .about-area .picture {
+  width: 50%;
+}
+#about .container .about-area .picture img {
+  width: 100%;
+}
+#about .container .about-area .picture-content {
+  width: 50%;
+  margin-left: 30px;
+}
+#about .container .about-area .picture-content i {
+  background-color: #FD4766;
+  border: 1px solid #FD4766;
+  padding: 20px;
+  border-radius: 50%;
+  color: white;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+#about .container .about-area .picture-content h1 {
+  font-size: 50px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+}
+#about .container .about-area .picture-content p {
+  color: gray;
+  font-weight: 300;
+  font-size: 18px;
+}
+#about .container .about-area .picture-content a {
+  text-decoration: none;
+  background: linear-gradient(120deg, #1C99FE 20.69%, #7644FF 50.19%, #FD4766 79.69%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: 20px;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.portfolio {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.portfolio .pictures {
+  width: 30%;
+  position: relative;
+}
+.portfolio .pictures img {
+  width: 100%;
+}
+.portfolio .pictures .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(255, 68, 0, 0.434);
+  width: 100%;
+  height: 100%;
+  color: white;
+  transition: 1s;
+  opacity: 0;
+}
+.portfolio .pictures .overlay:hover {
+  opacity: 1;
+}
+.portfolio .pictures .overlay h1 {
+  color: white;
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  position: absolute;
+  bottom: 20%;
+  left: 30px;
+}
+.portfolio .pictures .overlay p {
+  position: absolute;
+  bottom: 25%;
+  left: 30px;
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 600;
+}
+.portfolio .pictures .overlay button {
+  position: absolute;
+  bottom: 20px;
+  left: 30px;
+  color: #ffffff;
+  border-color: rgba(255, 255, 255, 0.3);
+  box-shadow: none;
+  background: none;
+  padding: 0 23px;
+  height: 40px;
+  display: inline-block;
+  line-height: 34px;
+  transition: 0.7s ease-in-out;
+}
+.portfolio .pictures .overlay button:hover {
+  background-color: #FD4766;
+}/*# sourceMappingURL=style.css.map */
