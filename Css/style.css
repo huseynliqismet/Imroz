@@ -24,8 +24,8 @@
   margin-left: 30px;
 }
 #about .container .about-area .picture-content i {
-  background-color: #FD4766;
-  border: 1px solid #FD4766;
+  background-color: #fd4766;
+  border: 1px solid #fd4766;
   padding: 20px;
   border-radius: 50%;
   color: white;
@@ -44,7 +44,7 @@
 }
 #about .container .about-area .picture-content a {
   text-decoration: none;
-  background: linear-gradient(120deg, #1C99FE 20.69%, #7644FF 50.19%, #FD4766 79.69%);
+  background: linear-gradient(120deg, #1c99fe 20.69%, #7644ff 50.19%, #fd4766 79.69%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-top: 20px;
@@ -70,7 +70,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  background-color: rgba(255, 68, 0, 0.434);
+  background-color: rgba(17, 166, 203, 0.733);
   width: 100%;
   height: 100%;
   color: white;
@@ -112,5 +112,86 @@
   transition: 0.7s ease-in-out;
 }
 .portfolio .pictures .overlay button:hover {
-  background-color: #FD4766;
+  background-color: #fd4766;
+}
+
+.elementor {
+  margin-top: 30px;
+}
+.elementor .text-box {
+  min-height: 280px;
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.448);
+}
+.elementor .text-box i {
+  color: rgb(36, 23, 23);
+  border-radius: 100%;
+  font-size: 38px;
+  margin-bottom: 20px;
+}
+.elementor .text-box p {
+  font-family: "Roboto", sans-serif;
+}
+.elementor .text-box h1 {
+  font-family: "Roboto", sans-serif;
+}
+
+.services-area {
+  margin-top: 30px;
+}
+.services-area .services-box {
+  text-align: center;
+}
+.services-area .services-box span {
+  background: linear-gradient(120deg, #1C99FE 20.69%, #7644FF 50.19%, #FD4766 79.69%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 600;
+  font-size: 16px;
+  border-radius: 4px;
+  margin-bottom: 12px;
+}
+.services-area .services-box h1 {
+  font-size: 50px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: black;
+}
+.services-area .services-box p {
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.507);
+}
+.services-area .services-boxes {
+  margin-top: 30px;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.448);
+  padding: 30px;
+  transition: 0.4s ease-in-out;
+}
+.services-area .services-boxes:hover {
+  transform: scale(1.08);
+}
+.services-area .services-boxes i {
+  font-size: 30px;
+  color: #FD4766;
+}
+.services-area .services-boxes h1 {
+  margin-bottom: 19px;
+  font-weight: 600;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.796);
+  margin-top: 20px;
+}
+.services-area .services-boxes p {
+  font-size: 18px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.501);
 }/*# sourceMappingURL=style.css.map */
